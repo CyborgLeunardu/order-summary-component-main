@@ -1,0 +1,28 @@
+body {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  margin-top: 15%;
+}
+
+div {
+  display: block;
+  border: 1px red solid;
+}
+
+.osc--modal {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.osc--mainText {
+  text-align: justify;
+  width:10%;
+}
+
+.osc--topImage {
+  background-image: url(/images/illustration-hero.svg);
+  background-repeat: no-repeat;
+}
