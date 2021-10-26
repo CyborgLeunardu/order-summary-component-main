@@ -4,11 +4,28 @@ body {
   justify-content: center;
   display: flex;
   flex-direction: row;
-  margin-top: 15%;
+  margin-top: 5%;
+  background-image: url(/images/pattern-background-desktop.svg)
+
+}
+
+.osc--section{
+  padding: 0 20px;
+}
+
+.osc--section div{
+  width: 100%;
 }
 
 div {
   display: block;
+  /* border: solid red 1px; */
+
+  
+}
+
+.osc--plan{
+  text-align: center;
 }
 
 .osc--modal {
@@ -18,20 +35,77 @@ div {
   align-items: center;
   width: 450px;
   border-radius: 10%;
+  background-color: white;
 
 }
 
 .osc--mainText {
   font-family: "Red Hat Display";  
+  font-size: 16px;
   text-align: center;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  width: 40%;
+  width: 60%;
 }
 
 .osc--topImage {
-  background-image: url(/images/illustration-hero.svg);
+  background-image: url("../images/illustration-hero.svg");
   background-repeat: no-repeat;
+  height: 200px;
+  width:100%;
+  border-radius: 10px 10px 0px 0px;
 
+}
+
+.osc--plan span{
+  display: block;
+}
+
+.osc--plan-text{
+  background-color: grey;
+  text-align: center;
+}
+
+.osc--plan-text::before{
+  display: block;
+  float: left;
+  content: url("../images/icon-music.svg");
+}
+
+.btn--payment {
+  background-color: hsl(245, 75%, 52%);
+  color: hsl(0, 0%, 100%);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  text-align: center;
+  margin:auto;
+  display:block;
+  border-radius: 10px
+}
+
+.btn--cancelOrder{
+  background-color: hsl(224, 23%, 55%);
+  color: hsl(0, 0%, 100%);
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  text-align: center;
+  margin:auto;
+  display:block;
+  border-radius: 10px
+}
+
+.button {
+  margin:auto;
+  display:block;
 }
